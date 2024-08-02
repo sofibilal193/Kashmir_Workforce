@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KC.API", "KC.API.csproj", "{16620380-E20A-416E-A619-FCF3D6C1326E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KC.API.Tests", "..\KC.API.Tests\KC.API.Tests.csproj", "{3D13357D-D6A7-4574-8FDE-0D9CCB52BEAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16620380-E20A-416E-A619-FCF3D6C1326E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16620380-E20A-416E-A619-FCF3D6C1326E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16620380-E20A-416E-A619-FCF3D6C1326E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16620380-E20A-416E-A619-FCF3D6C1326E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D13357D-D6A7-4574-8FDE-0D9CCB52BEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D13357D-D6A7-4574-8FDE-0D9CCB52BEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D13357D-D6A7-4574-8FDE-0D9CCB52BEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D13357D-D6A7-4574-8FDE-0D9CCB52BEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6997690D-1F1D-4839-8807-9CE6761FBD02}
+	EndGlobalSection
+EndGlobal
