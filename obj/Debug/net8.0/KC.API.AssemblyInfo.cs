@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KC.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21cc8ff14a308c6a634a570c80ec99014b842133")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76370ec9d69a1d210e3ee4a33a9079e5875c3627")]
 [assembly: System.Reflection.AssemblyProductAttribute("KC.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KC.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

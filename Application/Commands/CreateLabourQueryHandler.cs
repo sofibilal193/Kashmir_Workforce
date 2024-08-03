@@ -1,22 +1,17 @@
 ﻿using AutoMapper;
 using KC.API.Data;
-using KC.API.DTO;
 using KC.API.Model;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 
 namespace KC.API.Application.Commands
 {
-    public class CreateLabourQueryHandler : IRequestHandler<CreateLabourCommand, int>
+    public class CreateLabourCommandHandler : IRequestHandler<CreateLabourCommand, int>
     {
         private readonly KcDbContext _context;
 
-        private readonly IMapper _mapper;
-
-        public CreateLabourQueryHandler(KcDbContext context, IMapper mapper)
+        public CreateLabourCommandHandler(KcDbContext context)
         {
             _context = context;
-            _mapper = mapper;
         }
 
         public async Task<int> Handle(CreateLabourCommand request, CancellationToken cancellationToken)

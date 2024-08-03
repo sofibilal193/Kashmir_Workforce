@@ -4,13 +4,12 @@ using MediatR;
 
 namespace KC.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Labours")]
     [ApiController]
     public class LaboursController : ControllerBase
     {
 
         private readonly IMediator _mediator;
-
 
         public LaboursController(IMediator mediator)
         {
@@ -18,13 +17,23 @@ namespace KC.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<ActionResult<int>> PostLabour(CreateLabourCommand command)
+        public async Task<ActionResult<int>> CreateLabourAsync(CreateLabourCommand command)
         {
             var response = await _mediator.Send(command);
 
             return Created("",response); 
+        }
+        
+        
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<int>> GetLaboursAsync()
+        {
+            var response = await _mediator.Send(new GetLaboursQuery());
+
+            return Ok(response); 
         }
 
     }

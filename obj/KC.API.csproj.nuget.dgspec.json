@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj": {}
+    "c:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj": {
+    "c:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj",
+        "projectUniqueName": "c:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj",
         "projectName": "KC.API",
-        "projectPath": "C:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj",
+        "projectPath": "c:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj",
         "packagesPath": "C:\\Users\\sofib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofib\\source\\repos\\KC.API\\obj\\",
+        "outputPath": "c:\\Users\\sofib\\source\\repos\\KC.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sofib\\AppData\\Roaming\\NuGet\\NuGet.Config",
