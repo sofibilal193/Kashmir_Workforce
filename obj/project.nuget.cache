@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I0DmlutN9Cw=",
+  "dgSpecHash": "g3fXWmCRA/M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj",
+  "projectFilePath": "c:\\Users\\sofib\\source\\repos\\KC.API\\KC.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sofib\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\sofib\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
