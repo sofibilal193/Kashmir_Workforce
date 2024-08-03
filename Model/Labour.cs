@@ -23,5 +23,14 @@ namespace KC.API.Model
             Email = email;
             Skills = skills;
         }
+        public void Update(string fullName, int age, string? mobileNumber, string? email, List<Skill> skills) { 
+        FullName = fullName;
+            Age = age;
+            MobileNumber = mobileNumber;
+            Email = email;
+            Skills.Clear();
+            Skills.AddRange(skills);
+
+        }
     }
 }

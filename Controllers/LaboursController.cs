@@ -19,11 +19,19 @@ namespace KC.API.Controllers
 
         [HttpPost("Create")]
         [ProducesResponseType(StatusCodes.Status201Created)]
-        public async Task<ActionResult<int>> CreateLabourAsync(CreateLabourCommand command)
+        public async Task<ActionResult<int>> CreateLabourAsync(UpsertLabourCommand command)
         {
             var response = await _mediator.Send(command);
-
             return Created("",response); 
+        }
+
+        [HttpPut("{Id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public async Task<ActionResult<int>> UpdateLabourAsync(int Id, UpsertLabourCommand command)
+        {
+            command.SetIds(Id);
+            await _mediator.Send(command);
+            return NoContent(); 
         }
         
         
@@ -44,6 +52,16 @@ namespace KC.API.Controllers
 
             return Ok(response); 
         }
+
+
+        [HttpDelete("{Id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public async Task<ActionResult<int>> DeleteLabourAsync(int Id)
+        {
+             await _mediator.Send(new DeleteLabourCommand(Id));
+            return NoContent(); 
+        }
+
 
     }
 }
