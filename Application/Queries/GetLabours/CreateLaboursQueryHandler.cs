@@ -7,13 +7,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KC.API.Application.Commands
 {
-    public class GetLaboursQueryHandler : IRequestHandler<GetLaboursQuery, List<LabourDto>>
+    public class CreateLaboursQueryHandler : IRequestHandler<GetLaboursQuery, List<LabourDto>>
     {
         private readonly KcDbContext _context;
         private readonly IMapper _mapper;
 
 
-        public GetLaboursQueryHandler(KcDbContext context, IMapper mapper)
+        public CreateLaboursQueryHandler(KcDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;

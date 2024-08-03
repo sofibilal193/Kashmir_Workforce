@@ -36,6 +36,15 @@ namespace KC.API.Controllers
             return Ok(response); 
         }
 
+        [HttpGet("{Id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<int>> GetLabourAsync(int Id)
+        {
+            var response = await _mediator.Send(new GetLabourQuery(Id));
+
+            return Ok(response); 
+        }
+
     }
 }
 

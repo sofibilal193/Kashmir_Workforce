@@ -1,0 +1,50 @@
+# Ignore build outputs
+*.dll
+*.exe
+*.obj
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+*.user
+*.csproj.user
+*.suo
+*.TestResults
+*.nupkg
+*.mdf
+*.ldf
+*.publish
+*.pubxml
+*.class
+*.war
+*.jar
+bin/
+obj/
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore debug directories
+.debug/
+
+# Rider specific files
+.idea/
+.idea/*
+.idea/.idea
+.idea/*.iml
+.idea/modules.xml
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
