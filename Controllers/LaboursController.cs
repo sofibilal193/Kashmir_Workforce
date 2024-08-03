@@ -8,7 +8,6 @@ namespace KC.API.Controllers
     [ApiController]
     public class LaboursController : ControllerBase
     {
-
         private readonly IMediator _mediator;
 
         public LaboursController(IMediator mediator)
