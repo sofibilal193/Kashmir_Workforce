@@ -18,8 +18,6 @@ namespace KC.API.Controllers
             _mediator = mediator;
         }
 
-
-
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public async Task<ActionResult<int>> PostLabour(CreateLabourCommand command)
